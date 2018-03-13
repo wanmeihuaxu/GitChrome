@@ -1,0 +1,13 @@
+{
+   "browser_action": {
+      "default_icon": "icon.png",
+      "default_popup": "popup.html"
+   },
+   "description": "个人GitHub的Chrome插件，可以方便快捷的浏览个人信息",
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA1hc6Xgr+BFDZh21il7EdMTQMKxPxClLawmBOuLNZ8/PJn4eo11mif4XY+4qFD3L4gAKReQuSq/975dWkBTWZIiZsK5nZsynh3uMFYq2rIKpkmWsdeyu8xjPHaAfWwNFedEDhp5leHi1Ox5VgLOym5EPLdTBAka8ucmdYMm7dluGQfRGnEDe481Vk9BpvEpqMwNSUMRdwv7uyVy3KWs4SVaPaLz0k8qzQmM3vw91gz9xP+zqDl9DklzdHkxnAiH0R6xv1W3O5l77oD8tCwyBtEmmIhylyEDz5YOLzyV7rWIAKSnD0yhf+SUsxM9xAPo3h5sMii60ciyouuOgnZQTA+wIDAQAB",
+   "manifest_version": 2,
+   "name": "GitHub",
+   "options_page": "option/option.html",
+   "permissions": [ "storage", "tabs", "http://*/*", "https://*/*" ],
+   "version": "1.0"
+}
